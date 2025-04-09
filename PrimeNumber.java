@@ -2,7 +2,7 @@ package course;
 
 import java.util.Scanner;
 
-public class NumeroPrimo {
+public class PrimeNumber {
 
 	public static void main(String[] args) {
 
@@ -10,9 +10,9 @@ public class NumeroPrimo {
 		int n = sc.nextInt();
 		sc.nextLine();
 		if (ePrimo(n)) {
-			System.out.println("É primo");
+			System.out.println("It's prime");
 		} else {
-			System.out.println("Não é primo");
+			System.out.println("It's not prime");
 		}
 
 		sc.close();
